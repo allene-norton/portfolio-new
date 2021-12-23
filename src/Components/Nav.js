@@ -29,7 +29,8 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: '#fff',
     },
     sticky: {
-        position: 'fixed'
+        position: 'fixed',
+        backgroundColor: 'transparent',
     }
 }));
 
