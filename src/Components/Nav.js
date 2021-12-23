@@ -27,6 +27,9 @@ const useStyles = makeStyles((theme) => ({
     },
     transparent: {
         backgroundColor: '#fff',
+    },
+    sticky: {
+        position: 'fixed'
     }
 }));
 
@@ -34,7 +37,7 @@ const Nav = () => {
     const classes = useStyles()
     return (
         <div className={classes.root}>
-            <AppBar position="static"  >
+            <AppBar position="static"  className={classes.sticky}>
                 <Toolbar >
                     <NavMenu />
                     <Button
