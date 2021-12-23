@@ -38,7 +38,7 @@ const Nav = () => {
     const classes = useStyles()
     return (
         <div className={classes.root}>
-            <AppBar position="static"  className={classes.sticky}>
+            <AppBar position="static"  elevation={0} className={classes.sticky}>
                 <Toolbar >
                     <NavMenu />
                     <Button
