@@ -1,7 +1,8 @@
 import './App.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Home from './Components/Home'
+import Nav from './Components/Nav'
+import Parlx from './Components/Parallax'
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import theme from './Theme'
 
@@ -10,7 +11,8 @@ function App() {
   return (
     <div className="App">
       <MuiThemeProvider theme={theme}>
-        <Home />
+        <Nav />
+        <Parlx />
       </MuiThemeProvider>
     </div>
 
