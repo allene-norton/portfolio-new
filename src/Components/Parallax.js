@@ -1,6 +1,9 @@
 import React from 'react'
 import { Parallax } from 'react-parallax';
 import Hero from './Hero'
+import About from './About'
+import Portfolio from './Portfolio'
+import Resume from './Resume'
 import black from '../assets/images/solid-color-image.jpeg'
 
 
@@ -20,26 +23,26 @@ function Parlx() {
     return (
         <div>
             <Parallax bgImage={zag} bgImageAlt="the cat" strength={40} >
-                <div style={{ height: '95vh' }}>
+                <div style={{ height: '100vh' }} id="home">
                     <div style={insideStyles}>
                         <Hero />
                     </div>
                 </div>
             </Parallax >
             <Parallax bgImage={black} bgImageAlt="the cat" strength={300}>
-                <div style={{ height: 900 }}>
-                    <p style={{color: '#fff'}}>Scroll</p>
-                    <div style={insideStyles}>Dynamic Blur</div>
+                <div style={{ height: '100vh'}} id="about">
+                    {/* <p style={{color: '#fff'}}>Scroll</p> */}
+                    <div style={insideStyles}><About /></div>
                 </div>
             </Parallax>
             < Parallax bgImage={zig} bgImageAlt="the cat" strength={500} >
-                <div style={{ height: 800 }}>
-                    <div style={insideStyles}>HTML</div>
+                <div style={{ height: '100vh' }} id="portfolio" >
+                    <div style={insideStyles}><Portfolio /></div>
                 </div>
             </Parallax >
             < Parallax bgImage={zig} bgImageAlt="the cat" strength={500} >
-                <div style={{ height: '100vh' }}>
-                    <div style={insideStyles}>HTML </div>
+                <div style={{ height: '100vh' }} id="resume">
+                    <div style={insideStyles}><Resume /></div>
                 </div>
             </Parallax >
         </div>
