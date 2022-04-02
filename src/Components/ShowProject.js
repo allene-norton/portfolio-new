@@ -30,31 +30,31 @@ const useStyles = makeStyles((theme) => ({
 
 const descriptions = {
     RESITOWN: {
-        desc: 'ResiTown is a web application that connects volunteers to volunteer opportunities. I adapted it from an open-source Rails application to meet the needs of my employer, and handled deployment to production.',
-        live: 'https://resitown.com',
+        desc: 'ResiTown is a web application that connects volunteers to volunteer opportunities. *Note: This project was specific to Covid-related volunteer opportunities and was taken down by the company. The live demo is the same source code adapted for a personal volunteer project.',
+        live: 'https://www.helpingcentraltexas.org',
         video: null,
         tech: '  Rails 6 ⋅ PostgresQL ⋅ Devise ⋅ TailwindCSS ⋅ JavaScript'
     },
     VINESS: {
-        desc: 'Viness is a wine pairing application I made as my capstone project at Flatiron. You can get wine recommendations and pairings, recipe pairings, save your favorite wines, and interact through comments.',
+        desc: 'Viness is a wine pairing application. Users can find wine recommendations and pairings, recipe pairings, save favorite wines, and interact through comments.',
         live: 'http://viness.online',
         video: 'https://www.youtube.com/watch?v=E5aX-LlvIx8&feature=youtu.be&ab_channel=AlleneNorton',
         tech: '  Rails API ⋅ PostgresQL ⋅ Google OAuth ⋅ React ⋅ Semantic UI ⋅ Custom CSS'
     },
     PLAYBASE: {
-        desc: 'Playbase is a project I made for Flatiron with a partner. It allows users to log in with Spotify, search for and save albums, and listen in-app while viewing the album covers in a visually-pleasing environment.',
+        desc: 'Playbase allows users to log in with Spotify, search for and save albums, and listen in-app while viewing the album covers in a visually-pleasing environment.',
         live: null,
         video: 'https://www.youtube.com/watch?v=WgKxXew3N4o&feature=youtu.be&ab_channel=AlleneNorton',
         tech: '  Rails API ⋅ PostgresQL ⋅ Spotify OAuth ⋅ React ⋅ Semantic UI ⋅ Custom CSS'
     },
     CRECIPE: {
-        desc: 'Crecipe is an early project I made for Flatiron with a partner. Users can sign in and create their own recipes, see recipes made by all users, add recipes to favorites, and even take a quiz on their food knowledge.',
+        desc: 'Crecipe is an early project I made for Flatiron school. Users can sign in and create their own recipes, see recipes made by all users, add recipes to favorites, and even take a quiz on their food knowledge.',
         live: null,
         video: null,
         tech: '  Rails 6 ⋅ SQLite3 ⋅ MilligramCSS ⋅ jQuery'
     },
     JOURNALWAVE: {
-        desc: 'Journalwave is my first project for Flatiron. It is a Ruby CLI application that allows users to write, edit, and save journal entries, as well as recieve an emotional analysis of their entry powered by the Twinword Emotional Analysis API.',
+        desc: 'Journalwave is a Ruby CLI application that allows users to write, edit, and save journal entries, as well as recieve an emotional analysis of their entry powered by the Twinword Emotional Analysis API.',
         live: null,
         video: 'https://www.youtube.com/watch?v=rdkNK7EKqms&ab_channel=AlleneNorton',
         tech: '  Ruby ⋅ SQLite3 ⋅ LOLCAT ⋅ Twinword API'

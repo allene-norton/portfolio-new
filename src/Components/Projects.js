@@ -7,7 +7,7 @@ import { makeStyles } from '@material-ui/core';
 
 class Projects extends Component {
     state = {
-        project: 'RESITOWN'
+        project: 'VINESS'
     }
 
     handleClick = (e) => {
@@ -30,7 +30,7 @@ class Projects extends Component {
                             '&:hover': {
                                 backgroundColor: 'inherit',
                             }
-                        }} value="resitown" onClick={(e) => this.handleClick(e)}>ResiTown</Button></li>
+                        }} value="viness" onClick={(e) => this.handleClick(e)}>Viness</Button></li>
                         <li><Button style={{
                             backgroundColor: 'inherit',
                             color: '#fff',
@@ -39,7 +39,7 @@ class Projects extends Component {
                             '&:hover': {
                                 backgroundColor: 'inherit',
                             }
-                        }} value="viness" onClick={(e) => this.handleClick(e)}>Viness</Button></li>
+                        }} value="resitown" onClick={(e) => this.handleClick(e)}>ResiTown</Button></li>
                         <li><Button style={{
                             backgroundColor: 'inherit',
                             color: '#fff',
