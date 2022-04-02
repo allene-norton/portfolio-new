@@ -4,8 +4,9 @@ import Hero from './Hero'
 import About from './About'
 import Portfolio from './Portfolio'
 import Resume from './Resume'
-import black from '../assets/images/solid-color-image.jpeg'
-
+import flipped from '../assets/images/solid-color-image.jpeg'
+import zag from '../assets/images/rrainbow.gif'
+import rainbow from '../assets/images/angryimg.png'
 
 function Parlx() {
 
@@ -17,8 +18,12 @@ function Parlx() {
         transform: "translate(-50%,-50%)"
     };
 
-    let zig = "https://gifimages.us/wp-content/uploads/2021/07/Vaporwave-Vackground-34.jpg"
-    let zag = "https://wallpapercave.com/wp/wp2729921.gif"
+    // const aboutStyles = {
+    //     marginRight: '3em'
+    // }
+
+    // let zig = 
+    // let zag = "https://wallpapercave.com/wp/wp2729921.gif"
 
     return (
         <div>
@@ -29,22 +34,22 @@ function Parlx() {
                     </div>
                 </div>
             </Parallax >
-            <Parallax bgImage={black} bgImageAlt="the cat" strength={300}>
+            <Parallax bgImage={flipped} bgImageAlt="the cat" strength={40}>
                 <div style={{ height: '100vh'}} id="about">
                     {/* <p style={{color: '#fff'}}>Scroll</p> */}
-                    <div style={insideStyles}><About /></div>
+                    <div><About /></div>
                 </div>
             </Parallax>
-            < Parallax bgImage={zig} bgImageAlt="the cat" strength={500} >
+            < Parallax bgImage={rainbow} bgImageAlt="the cat" strength={40} >
                 <div style={{ height: '100vh' }} id="portfolio" >
                     <div style={insideStyles}><Portfolio /></div>
                 </div>
             </Parallax >
-            < Parallax bgImage={zig} bgImageAlt="the cat" strength={500} >
+            {/* < Parallax bgImage={flipped} bgImageAlt="the cat" strength={40} >
                 <div style={{ height: '100vh' }} id="resume">
                     <div style={insideStyles}><Resume /></div>
                 </div>
-            </Parallax >
+            </Parallax > */}
         </div>
     )
 };

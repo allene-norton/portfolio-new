@@ -56,7 +56,7 @@ const Nav = () => {
                     <Scrollchor to='#about' className={classes.noline}>
                         <Button
                             className={classes.button} >
-                            About
+                            Skills + Tech
                         </Button>
                     </Scrollchor>
                     <Scrollchor to='#portfolio' className={classes.noline}>
@@ -65,12 +65,12 @@ const Nav = () => {
                             Portfolio
                         </Button>
                     </Scrollchor>
-                    <Scrollchor to='#resume' className={classes.noline}>
+                    {/* <Scrollchor to='#resume' className={classes.noline}>
                         <Button
                             className={classes.button} >
                             Resume
                         </Button>
-                    </Scrollchor>
+                    </Scrollchor> */}
                 </Toolbar>
             </AppBar>
         </div>
